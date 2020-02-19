@@ -1,0 +1,60 @@
+﻿@model IEnumerable<AppDemo.Models.UsuarioCSV>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="row">
+    <div class="col-md-7">
+        <form method="post" enctype="multipart/form-data" asp-controller="Archivos" asp-action="SubirArchivo">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <div class="form-group">
+                <label>Seleccionar el archivo a subir</label>
+                <input class="form-inline" type="file" id="archivo" name="archivo" accept=".csv" />
+            </div>
+            <div class="form-group">
+                <button type="submit" value="Subir" class="btn btn-danger">Subir</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.HorasTrabajadas)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SueldoPorHora)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaProximoPago)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HorasTrabajadas)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SueldoPorHora)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FechaProximoPago)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdUsuario" class="btn btn-warning">Edit</a>
+                    <a asp-action="Details" asp-route-id="@item.IdUsuario" class="btn btn-primary">Details</a>
+                    <a asp-action="Delete" asp-route-id="@item.IdUsuario" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
