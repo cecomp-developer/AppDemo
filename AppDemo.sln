@@ -11,6 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppDemo.DAL", "AppDemo.DAL\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppDemo.Security", "AppDemo.Security\AppDemo.Security.csproj", "{E37A8349-2940-49AF-8128-5059E2D487CF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csv_demofile", "csv_demofile", "{682225AF-2EB9-4BCD-99CF-45163135B1BF}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\csv_demofile.csv = ..\..\..\Downloads\csv_demofile.csv
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
