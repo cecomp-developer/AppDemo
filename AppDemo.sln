@@ -3,13 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppDemo", "AppDemo\AppDemo.csproj", "{6DFC45D3-47B8-4AB2-AF7B-3BFDAE5B09B1}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppDemo.Models", "AppDemo.Models\AppDemo.Models.csproj", "{62CD1D95-7011-4107-BF47-FDE83AD9F441}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppDemo.DAL", "AppDemo.DAL\AppDemo.DAL.csproj", "{864E12F3-8DB5-4DA5-8748-555C01D80E31}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppDemo.Security", "AppDemo.Security\AppDemo.Security.csproj", "{E37A8349-2940-49AF-8128-5059E2D487CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppDemo", "AppDemo\AppDemo.csproj", "{6DFC45D3-47B8-4AB2-AF7B-3BFDAE5B09B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,18 +15,6 @@ Global
 		{6DFC45D3-47B8-4AB2-AF7B-3BFDAE5B09B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DFC45D3-47B8-4AB2-AF7B-3BFDAE5B09B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DFC45D3-47B8-4AB2-AF7B-3BFDAE5B09B1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{62CD1D95-7011-4107-BF47-FDE83AD9F441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{62CD1D95-7011-4107-BF47-FDE83AD9F441}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{62CD1D95-7011-4107-BF47-FDE83AD9F441}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{62CD1D95-7011-4107-BF47-FDE83AD9F441}.Release|Any CPU.Build.0 = Release|Any CPU
-		{864E12F3-8DB5-4DA5-8748-555C01D80E31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{864E12F3-8DB5-4DA5-8748-555C01D80E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{864E12F3-8DB5-4DA5-8748-555C01D80E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{864E12F3-8DB5-4DA5-8748-555C01D80E31}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E37A8349-2940-49AF-8128-5059E2D487CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E37A8349-2940-49AF-8128-5059E2D487CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E37A8349-2940-49AF-8128-5059E2D487CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E37A8349-2940-49AF-8128-5059E2D487CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
